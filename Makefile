@@ -1,2 +1,2 @@
 run:
-	python src/receipt-extractor/main.py receipts --print
+	PYTHONPATH=src python -m receipt_extractor.main receipts --print
