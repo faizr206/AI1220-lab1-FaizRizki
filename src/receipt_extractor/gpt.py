@@ -55,5 +55,12 @@ The output must be valid JSON.
             }
         ]
     )
-    return json.loads(response.choices[0].message.content)
+    json_response = json.loads(response.choices[0].message.content)
+
+    if '$' in json_response["amount"]:
+        json_response["amount"] = json_response["amount"].replace("$", "")
+    
+    json_response["amount"] = float(json_response["amount"])
+    
+    return json_response
 
