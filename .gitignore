@@ -2,3 +2,6 @@
 docs/
 
 COMMAND_API_OPENAI.txt
+
+__pycache__/
+*.pyc
