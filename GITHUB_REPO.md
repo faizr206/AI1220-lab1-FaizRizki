@@ -1,0 +1,1 @@
+Github REPO: https://github.com/faizr206/AI1220-lab1-FaizRizki.git

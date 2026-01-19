@@ -1,5 +1,7 @@
 # Receipt Extractor CLI
 
+Github REPO: https://github.com/faizr206/AI1220-lab1-FaizRizki.git
+
 This project is a small CLI that scans a directory of receipt images, sends each
 image to the OpenAI API, and returns structured JSON with the receipt's date,
 total amount, vendor, and category.
